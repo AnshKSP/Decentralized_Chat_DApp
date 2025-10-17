@@ -164,7 +164,7 @@ We welcome your contributions! To get started:
 Thank you for helping improve this project!
 
 ## License
+This project is licensed under the [MIT License](LICENSE).
 
-MIT
 
 
