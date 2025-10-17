@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Decentralized Chat DApp</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+  <div class="header">
+    <span><i class="fa-solid fa-comments"></i> Decentralized Chat</span>
+  </div>
+  <div class="chatArea">
+    <div class="sidebar">
+      <button id="connectBtn"><i class="fa-brands fa-ethereum"></i> Connect MetaMask</button>
+      <div id="connectionStatus" class="connection-bar"></div>
+      <div class="sidebar-spacer"></div>
+      <div class="sidebar-creators-label">Creators</div>
+      <div class="sidebar-footer-github">
+        <a href="https://github.com/AnshKSP" target="_blank">
+          <i class="fa-brands fa-github"></i> Ansh GitHub
+        </a>
+        <a href="https://github.com/Adii1104" target="_blank">
+          <i class="fa-brands fa-github"></i> Aditya GitHub
+        </a>
+      </div>
+    </div>
+    <div class="mainChat">
+      <div id="messages"></div>
+      <form class="inputArea" id="chatForm">
+        <select id="receiverAddress" name="receiverAddress" required></select>
+        <textarea id="message" name="message" required rows="1" placeholder="Type your message"></textarea>
+        <button id="emojiBtn" type="button" title="Emoji" tabindex="-1"><span>😊</span></button>
+        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+        <div id="emojiPopup" class="emoji-popup" tabindex="-1">
+          <input type="text" id="emojiSearch" class="emoji-search" placeholder="Search emoji...">
+          <div class="emoji-list"></div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
