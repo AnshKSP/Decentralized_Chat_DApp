@@ -52,7 +52,7 @@ cd decentralized-chat-dapp
 **Screenshots:** 
 
 ### Contract deployment in Remix
-- ![Remix IDE deploying DecentralizedChat.sol](screenshots/remix-deploy.png)
+- ![Remix IDE deploying DecentralizedChat.sol](screenshots/remix.png)
 
 ### App live in browser
 - ![Home screen](screenshots/home.png)
