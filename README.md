@@ -49,7 +49,13 @@ cd decentralized-chat-dapp
 - Make sure MetaMask is installed and set to the same network your contract is deployed to
 - Connect MetaMask and start chatting!
 
-**Screenshots:**  
+**Screenshots:** 
+
+### Contract deployment in Remix
+- ![Remix IDE deploying DecentralizedChat.sol](screenshots/remix-deploy.png)
+
+### App live in browser
+- ![Home screen](screenshots/home.png)
 - ![App loaded with MetaMask Connect](screenshots/metamask-connect.png)
 - ![Sidebar with creator credits](screenshots/creators-sidebar.png)
 - ![Emoji picker in use](screenshots/emoji-picker.png)
